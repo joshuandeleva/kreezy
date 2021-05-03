@@ -60,3 +60,33 @@
 	width: 100%;
 	height: 400px;
 }
+.about__me {
+	cursor: pointer;
+}
+.aboutMe__left > img {
+	background-color: #81ecec;
+	border-radius: 50%;
+}
+.aboutMe__right {
+	padding-top: 70px;
+}
+.aboutMe__right > h1 {
+	color: #81ecec;
+	line-height: 30px;
+	font-family: "Robotos" sans-serif;
+	font-size: 3rem;
+	padding-bottom: 20px;
+}
+.aboutMe__right > p {
+	font-weight: 400px;
+	line-height: 30px;
+	font-family: "Robotos" sans-serif;
+}
+.about-me-social-media {
+	padding-top: 20px;
+}
+.about-me-social-media > a {
+	padding-right: 20px;
+	border-radius: 20px;
+	color: #81ecec;
+}
