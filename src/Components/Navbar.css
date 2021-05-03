@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+.Navbar__Main {
+	font-family: "Robotos", sans-serif;
+}
+.Navbar__items {
+	padding-top: 10px;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+.nav__ItemsList > ul {
+	display: flex;
+}
+.nav__ItemsList > ul > li {
+	display: flex;
+	padding-right: 18px;
+}
+.nav__ItemsList > ul > li > a {
+	font-size: 18px;
+	color: #81ecec;
+	text-align: center;
+	font-family: "Robotos", sans-serif;
+	text-decoration: none;
+	line-height: 3px;
+	padding: 10px 0;
+}
+.nav__ItemsList > ul > li > a:hover {
+	border-bottom: 2px solid black;
+}
