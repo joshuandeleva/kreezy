@@ -50,11 +50,10 @@ function Index() {
 								<div className="aboutMe__right">
 									<h1>About Me 👨‍💻</h1>
 									<p>
-										Hello, i'm experienced junoir data
-										scientist extracting insights from real
-										world data to derive meaningfull
-										intutions to help business solve
-										problems.Am proficient in
+										Hello, i'm experienced data scientist
+										extracting insights from real world data
+										to derive meaningfull intutions to help
+										business solve problems.Am proficient in
 										python,sql,leveraging on Machine
 										Learning, DeeepLearning
 									</p>
