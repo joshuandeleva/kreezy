@@ -6,6 +6,8 @@ import Chrispic from "../assets/images/chrispic1.png";
 import { Grid, Container, Button, Link } from "@material-ui/core";
 import "./Index.css";
 import Skills from "./Skills";
+import Projects from "./Projects";
+import Contact from "./Contact";
 function Index() {
 	return (
 		<div className="main__content">
@@ -77,7 +79,13 @@ function Index() {
 					</div>
 				</Container>
 			</div>
-			<Skills />
+			<div className="skill-section">
+				<Container>
+					<Skills />
+				</Container>
+			</div>
+			<Projects />
+			<Contact />
 		</div>
 	);
 }

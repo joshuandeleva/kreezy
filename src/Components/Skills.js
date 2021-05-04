@@ -26,7 +26,7 @@ function Skills() {
 		<div className="myskills">
 			<div className="skills-section">
 				<Container>
-					<Grid container>
+					<Grid container justify="center">
 						<Grid item xl={12} md={12} lg={12} sm={12}>
 							<div className="skill-section-intro">
 								<h1>My Skills 🚀</h1>
@@ -38,18 +38,16 @@ function Skills() {
 								</p>
 							</div>
 						</Grid>
-						<Grid item xl={12} md={12} lg={12} sm={12}>
-							<div className="skill-section-show">
-								{Datarenderd.map((myskill, index) => (
-									<Progressbar
-										key={index}
-										bgcolor={myskill.bgcolor}
-										completed={myskill.completed}
-										skill={myskill.skill}
-									/>
-								))}
-							</div>
-						</Grid>
+						<div className="skill-section-show">
+							{Datarenderd.map((myskill, index) => (
+								<Progressbar
+									key={index}
+									bgcolor={myskill.bgcolor}
+									completed={myskill.completed}
+									skill={myskill.skill}
+								/>
+							))}
+						</div>
 					</Grid>
 				</Container>
 			</div>
