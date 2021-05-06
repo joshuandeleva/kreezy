@@ -21,6 +21,14 @@ const Projects = () => {
 									<p>
 										A project to predict your diabetes level
 									</p>
+									<div className="project-link">
+										<a href="https://diabetes-application.herokuapp.com/">
+											Live demo
+										</a>
+										<a href="https://github.com/WanjohiChristopher/Diabetes-Prediction-Deployment">
+											Github
+										</a>
+									</div>
 								</div>
 								<div className="project-img">
 									<img src={diabetes} alt="" />
@@ -35,6 +43,14 @@ const Projects = () => {
 										Apple Time series analysis project basic
 										understanding and complete execution.
 									</p>
+									<div className="project-link">
+										<a href="https://github.com/WanjohiChristopher/Apple_Stock-Market-Forecasting-Time-Series-Analysis">
+											Live demo
+										</a>
+										<a href="https://github.com/WanjohiChristopher/Apple_Stock-Market-Forecasting-Time-Series-Analysis">
+											Github
+										</a>
+									</div>
 								</div>
 								<div className="project-img">
 									<img src={apple} alt="" />
@@ -46,6 +62,14 @@ const Projects = () => {
 								<div className="project-des">
 									<h6>Big Mart Sales Prediction</h6>
 									<p>Big Mart Sales Prediction</p>
+									<div className="project-link">
+										<a href="https://github.com/WanjohiChristopher/Big-Mart-Sales-Prediction-Using-Neural-Networks">
+											Live demo
+										</a>
+										<a href="https://github.com/WanjohiChristopher/Big-Mart-Sales-Prediction-Using-Neural-Networks">
+											Github
+										</a>
+									</div>
 								</div>
 								<div className="project-img">
 									<img src={proj} alt="" />

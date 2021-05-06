@@ -24,6 +24,13 @@
 	justify-content: center;
 	flex-direction: column;
 }
+.project-link {
+	display: flex;
+}
+.project-link > a {
+	text-decoration: none;
+	padding-left: 10px;
+}
 .project-des {
 	padding-right: 10px;
 	display: flex;

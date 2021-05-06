@@ -10,6 +10,12 @@
 	border-right: 2px solid #81ecec;
 	border-left: 2px solid #81ecec;
 }
+.footer-item-2 {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding-left: 15px;
+}
 .footer-item-1 > li {
 	list-style: none;
 	padding: 5px 10px;

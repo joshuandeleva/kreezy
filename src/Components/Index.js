@@ -26,6 +26,15 @@ function Index() {
 										A Datascientist 🥑 ,Data engineer 👨‍💻and
 										an NLP practioneer
 									</p>
+									<div className="myskill-top">
+										<p>I'm skilled on using </p>
+										<div className="skills-display">
+											<span>Python</span>
+											<span>Tableau</span>
+											<span>PowerBi</span>
+											<span>TensorFlow</span>
+										</div>
+									</div>
 									<div className="nav-btns">
 										<Button class="contact">
 											<Link to="/contact">
