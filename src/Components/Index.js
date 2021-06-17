@@ -17,7 +17,7 @@ function Index() {
 			<div className="mainContent__navIntro">
 				<Container>
 					<Grid container spacing={3}>
-						<Grid item xl={6} lg={6} sm={12} md={6}>
+						<Grid item xl={6} lg={6} sm={12} md={6} xm={12}>
 							<div className="mainContent__navLeft">
 								<Slide top>
 									<h1>Hello 👋 ,</h1>
@@ -50,7 +50,7 @@ function Index() {
 								</Slide>
 							</div>
 						</Grid>
-						<Grid item xl={6} lg={6} sm={12} md={6}>
+						<Grid item xl={6} lg={6} sm={12} md={6} xm={12}>
 							<Slide right>
 								<div className="mainContent__navRight">
 									<img src={Chrispic} alt="" />

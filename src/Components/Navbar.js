@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Link } from "@material-ui/core";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { GrClose } from "react-icons/gr";
 import "./Navbar.css";
 const Navbar = () => {
 	//handles the mobile nav
@@ -40,9 +41,9 @@ const Navbar = () => {
 					</div>
 					<div className="menu__icon" onClick={handleClick}>
 						{click ? (
-							<GiHamburgerMenu style={{ fontSize: "2.5rem" }} />
+							<GrClose style={{ fontSize: "1.8rem" }} />
 						) : (
-							<GiHamburgerMenu style={{ fontSize: "2.5rem" }} />
+							<GiHamburgerMenu style={{ fontSize: "1.8rem" }} />
 						)}
 					</div>
 					<div className="nav__ItemsList">
