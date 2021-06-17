@@ -6,6 +6,16 @@ const Navbar = () => {
 	const [mobileNav, setMobileNav] = useState(false);
 	//handle navbar scroll
 	const [scrollableNav, setscrollableNav] = useState(false);
+	//mobile menu
+	const showMobileMenu = () => {
+		if (window.innerWidth <= 960) {
+			setMobileNav(false);
+		} else {
+			setMobileNav(true);
+		}
+	};
+	//global event to check mobile nav
+	window.addEventListener("resize" ,showMobileMenu)
 	//on scroll fix the navbar position
 	const scrollmyWindow = () => {
 		if (window.scrollY >= 80) {
@@ -16,7 +26,7 @@ const Navbar = () => {
 	};
 	useEffect(() => {});
 	// global event
-	window.addEventListener("resize", scrollmyWindow);
+	window.addEventListener("scroll", scrollmyWindow);
 	return (
 		<div className="Navbar__Main">
 			<Container>
