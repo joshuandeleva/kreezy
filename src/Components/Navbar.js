@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Container, Link } from "@material-ui/core";
+import { GiHamburgerMenu } from "react-icons/gi";
 import "./Navbar.css";
 const Navbar = () => {
 	//handles the mobile nav
 	const [mobileNav, setMobileNav] = useState(true);
 	const [click, setClick] = useState(false);
 	//handle navbar scroll
-	const [scrollableNav, setscrollableNav] = useState(false);
+	const [navbar, setNavbar] = useState(false);
 	const closeMobilebtn = () => setClick(false);
 	const handleClick = () => setClick(!click);
 	//mobile menu
@@ -22,23 +23,32 @@ const Navbar = () => {
 	//on scroll fix the navbar position
 	const scrollmyWindow = () => {
 		if (window.scrollY >= 80) {
-			setscrollableNav(true);
+			setNavbar(true);
 		} else {
-			setscrollableNav(false);
+			setNavbar(false);
 		}
 	};
 	useEffect(() => {});
 	// global event
 	window.addEventListener("scroll", scrollmyWindow);
 	return (
-		<div className="Navbar__Main">
+		<div className={navbar ? "navbar active" : "navbar"}>
 			<Container>
 				<div className="Navbar__items">
 					<div className="navbar__logo">
 						<Link to="/">CK</Link>
 					</div>
+					<div className="menu__icon" onClick={handleClick}>
+						{click ? (
+							<GiHamburgerMenu style={{ fontSize: "2.5rem" }} />
+						) : (
+							<GiHamburgerMenu style={{ fontSize: "2.5rem" }} />
+						)}
+					</div>
 					<div className="nav__ItemsList">
-						<ul>
+						<ul
+							className={click ? "nav__menu active" : "nav__menu"}
+						>
 							<li>
 								<a href="/Home">Home</a>
 							</li>
