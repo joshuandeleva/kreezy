@@ -2,6 +2,15 @@
 .Navbar__Main {
 	font-family: "Robotos", sans-serif;
 }
+.navbar {
+	height: 80px;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+.navbar.active {
+	background-color: #f8f8f8;
+}
 .Navbar__items {
 	padding-top: 10px;
 	height: 70px;
@@ -28,4 +37,21 @@
 }
 .nav__ItemsList > ul > li > a:hover {
 	border-bottom: 2px solid black;
+}
+.menu__icon {
+	display: none;
+}
+@media screen and (max-width: 960px) {
+	.menu__icon {
+		display: block;
+		position: absolute;
+		right: 0;
+		transform: translate(-10%, 60%);
+		font-size: 1rem;
+		cursor: pointer;
+		color: black;
+		border: 1px solid black;
+		border-radius: 50%;
+		padding: 0 5px;
+	}
 }
