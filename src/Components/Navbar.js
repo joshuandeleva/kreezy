@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Link } from "@material-ui/core";
 import "./Navbar.css";
 const Navbar = () => {
+	//handles the mobile nav
+	const [mobileNav, setMobileNav] = useState(false);
+	//handle navbar scroll
+	const [scrollableNav, setscrollableNav] = useState(false);
+	//on scroll fix the navbar position
+	const scrollmyWindow = () => {
+		if (window.scrollY >= 80) {
+			setscrollableNav(true);
+		} else {
+			setscrollableNav(false);
+		}
+	};
+	useEffect(() => {});
+	// global event
+	window.addEventListener("resize", scrollmyWindow);
 	return (
 		<div className="Navbar__Main">
 			<Container>
