@@ -3,9 +3,12 @@ import { Container, Link } from "@material-ui/core";
 import "./Navbar.css";
 const Navbar = () => {
 	//handles the mobile nav
-	const [mobileNav, setMobileNav] = useState(false);
+	const [mobileNav, setMobileNav] = useState(true);
+	const [click, setClick] = useState(false);
 	//handle navbar scroll
 	const [scrollableNav, setscrollableNav] = useState(false);
+	const closeMobilebtn = () => setClick(false);
+	const handleClick = () => setClick(!click);
 	//mobile menu
 	const showMobileMenu = () => {
 		if (window.innerWidth <= 960) {
@@ -15,7 +18,7 @@ const Navbar = () => {
 		}
 	};
 	//global event to check mobile nav
-	window.addEventListener("resize" ,showMobileMenu)
+	window.addEventListener("resize", showMobileMenu);
 	//on scroll fix the navbar position
 	const scrollmyWindow = () => {
 		if (window.scrollY >= 80) {
