@@ -16,6 +16,9 @@ const Projects = () => {
 					<div className="main-grid-item">
 						<div className="my-project-main-item">
 							<Slide bottom>
+								<div className="project-img">
+									<img src={diabetes} alt="" />
+								</div>
 								<div className="project-des">
 									<h6>Diabetes prediction </h6>
 									<p>
@@ -30,13 +33,13 @@ const Projects = () => {
 										</a>
 									</div>
 								</div>
-								<div className="project-img">
-									<img src={diabetes} alt="" />
-								</div>
 							</Slide>
 						</div>
 						<div className="my-project-main-item">
 							<Slide bottom>
+								<div className="project-img">
+									<img src={apple} alt="" />
+								</div>
 								<div className="project-des">
 									<h6>Apple stock prediction</h6>
 									<p>
@@ -52,13 +55,13 @@ const Projects = () => {
 										</a>
 									</div>
 								</div>
-								<div className="project-img">
-									<img src={apple} alt="" />
-								</div>
 							</Slide>
 						</div>
 						<div className="my-project-main-item">
 							<Slide bottom>
+								<div className="project-img">
+									<img src={proj} alt="" />
+								</div>
 								<div className="project-des">
 									<h6>Big Mart Sales Prediction</h6>
 									<p>Big Mart Sales Prediction</p>
@@ -70,9 +73,6 @@ const Projects = () => {
 											Github
 										</a>
 									</div>
-								</div>
-								<div className="project-img">
-									<img src={proj} alt="" />
 								</div>
 							</Slide>
 						</div>

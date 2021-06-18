@@ -19,19 +19,18 @@ function Footer() {
 						</li>
 					</div>
 					<div className="footer-item-2">
-						<p>Lets engange in social media</p>
 						<div className="about-me-social-media">
 							<a href="https://www.facebook.com/wanjohi.kreezy/">
-								<FaFacebookF />
+								<FaFacebookF className="social-icon" />
 							</a>
 							<a href="https://www.twitter.com/IamWanjohichris">
-								<FaTwitter />
+								<FaTwitter className="social-icon" />
 							</a>
 							<a href="https://www.linkedln.com/in/Wanjohi-christopher-b9bb9b196">
-								<FaLinkedinIn />
+								<FaLinkedinIn className="social-icon" />
 							</a>
 							<a href="https://github.com/WanjohiChristopher">
-								<FaGithub />
+								<FaGithub className="social-icon" />
 							</a>
 						</div>
 					</div>

@@ -3,6 +3,7 @@
 	justify-content: center;
 	align-items: center;
 	padding-top: 40px;
+	padding-bottom: 40px;
 }
 .footer-item-1 {
 	display: flex;
@@ -11,6 +12,7 @@
 	border-left: 2px solid #81ecec;
 }
 .footer-item-2 {
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
@@ -20,6 +22,17 @@
 	list-style: none;
 	padding: 5px 10px;
 }
+.about-me-social-media {
+	padding: 20px 0;
+	margin-left: 20px;
+	display: flex;
+	align-items: center;
+}
+.social-icon {
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+}
 .footer-item-1 > li > a {
 	line-height: 3px;
 	color: black;
@@ -27,8 +40,15 @@
 	font-size: 1.5rem;
 }
 .footer-copy-right {
+	padding: 10px 0;
 	display: flex;
 	align-items: center;
 	text-align: center;
 	justify-content: center;
+}
+@media (min-width: 200px) and (max-width: 960px) {
+	.footer-items {
+		display: flex;
+		flex-direction: column;
+	}
 }

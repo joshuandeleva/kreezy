@@ -20,6 +20,37 @@
 	font-family: "Robotos", sans-serif;
 	font-weight: 400;
 }
+@media (min-width: 350px) and (max-width: 500px) {
+	.mainContent__navLeft {
+		display: flex;
+		flex-direction: column;
+		padding: 10px 0;
+	}
+	.mainContent__navLeft > p {
+		padding: 10px 0;
+		line-height: normal;
+		font-size: 1.5rem;
+		max-width: 95%;
+	}
+	.mainContent__navLeft > h1 {
+		max-width: 95%;
+		font-size: 2rem;
+		line-height: normal;
+	}
+	.skills-display > span {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.contact,
+	.cv {
+		width: 150px !important;
+	}
+}
+@media screen and (max-width: 960px) {
+	.mainContent__navRight {
+		display: none;
+	}
+}
 .myskill-top {
 	margin-top: 10px;
 }
@@ -34,10 +65,14 @@
 	display: flex;
 }
 .skills-display > span {
-	margin-right: 15px;
+	text-align: center;
+	margin-right: 10px;
+	margin-top: 10px;
 	border: 2px solid black;
 	border-radius: 25px;
 	padding: 8px 10px;
+	width: 100px;
+
 	cursor: pointer;
 }
 .nav-btns {
