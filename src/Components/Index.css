@@ -51,30 +51,6 @@
 		display: none;
 	}
 }
-.myskill-top {
-	margin-top: 10px;
-}
-.myskill-top > p {
-	font-size: 1.7rem;
-	line-height: 30px;
-	font-family: "Robotos", sans-serif;
-	font-weight: 400;
-}
-.skills-display {
-	margin-top: 10px;
-	display: flex;
-}
-.skills-display > span {
-	text-align: center;
-	margin-right: 10px;
-	margin-top: 10px;
-	border: 2px solid black;
-	border-radius: 25px;
-	padding: 8px 10px;
-	width: 100px;
-
-	cursor: pointer;
-}
 .nav-btns {
 	display: flex;
 	padding-top: 30px;

@@ -62,7 +62,7 @@
 	.my-project-main-item {
 		display: flex;
 		flex-direction: column;
-		width: 600px;
+		width: 300px;
 		margin-bottom: 10px;
 		height: 400px;
 	}

@@ -26,15 +26,7 @@ function Index() {
 										A Datascientist 🥑 ,Data engineer 👨‍💻and
 										an NLP practioneer
 									</p>
-									<div className="myskill-top">
-										<p>I'm skilled on using </p>
-										<div className="skills-display">
-											<span>Python</span>
-											<span>Tableau</span>
-											<span>PowerBi</span>
-											<span>TensorFlow</span>
-										</div>
-									</div>
+
 									<div className="nav-btns">
 										<Button class="contact">
 											<Link to="/contact">
@@ -42,7 +34,10 @@ function Index() {
 											</Link>
 										</Button>
 										<Button class="cv">
-											<Link to={Resume} target="_blank">
+											<Link
+												href="../assets/images/Resume.docx"
+												download
+											>
 												View my Cv
 											</Link>
 										</Button>
