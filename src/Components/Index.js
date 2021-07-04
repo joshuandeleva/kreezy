@@ -1,5 +1,4 @@
 import React from "react";
-import Resume from "../assets/images/Resume.docx";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import Navbar from "./Navbar";
 import Chrispic from "../assets/images/chrispic1.png";

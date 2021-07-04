@@ -1,0 +1,58 @@
+a{
+    text-decoration: none;
+}
+.main-div{
+    display: flex;
+    align-items: center;
+}
+.aboutMePage__left{
+    display: flex;
+    flex-direction: column;
+}
+.aboutMePage__left h1{
+    font-size: 16px;
+    color: deepskyblue;
+}
+.aboutMePage__left h3{
+      color: deepskyblue;
+    padding-top: 20px;
+}
+.aboutMePage__left p{
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.aboutMePage__left h6{
+    padding-top: 20px;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 400;
+}
+.aboutMePage__leftBtns{
+    padding-top: 20px;
+    display: flex;
+}
+.abtHire{
+    background-color: deepskyblue !important;
+    width: 250px !important;
+    color: white !important;
+    text-transform: inherit !important;
+    margin-right: 10px !important;
+}
+.abtHire a{
+    color: white !important;
+    text-transform: inherit !important;
+}
+.abtCv{
+    text-transform: inherit !important;
+}
+.aboutMePage__moreDetailsRight h6{
+     font-weight: 700;
+     font-size: 40px;
+     padding-bottom: 20px;
+}
+.aboutMePage__moreDetailsRight p{
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 400;
+}

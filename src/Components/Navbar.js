@@ -51,19 +51,22 @@ const Navbar = () => {
 							className={click ? "nav__menu active" : "nav__menu"}
 						>
 							<li>
-								<a href="/Home">Home</a>
+								<a href="/">Home</a>
 							</li>
 							<li>
-								<a href="/About-me">About Me</a>
+								<a href="/about-me">About Me</a>
 							</li>
 							<li>
-								<a href="/Blog">Blog</a>
+								<a href="/blog">Blog</a>
 							</li>
 							<li>
-								<a href="/skils">Skills</a>
+								<a href="/project">Projects</a>
 							</li>
 							<li>
-								<a href="/skils">Services</a>
+								<a href="/services">Services</a>
+							</li>
+							<li>
+								<a href="/contact-us">Contact us</a>
 							</li>
 						</ul>
 					</div>
