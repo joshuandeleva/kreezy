@@ -56,3 +56,13 @@ a{
     line-height: 35px;
     font-weight: 400;
 }
+.abtIcons{
+    display: flex;
+}
+.abtIcon-1{
+    display: flex;
+}
+.abtIcon-des{
+    display: flex;
+    flex-direction: column;
+}

@@ -7,7 +7,7 @@ import Button from "@material-ui/core/Button";
 import { Grid, Container } from "@material-ui/core";
 import { GiAchievement } from "react-icons/gi";
 import { ImFileText } from "react-icons/im";
-import { IoTimerOutline } from "react-icons/io";
+import { IoTimerOutline } from "react-icons/io5";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 function About() {
@@ -114,21 +114,21 @@ function About() {
 											<GiAchievement />
 											<div className="abtIcon-des">
 												<small>3 year</small>
-												<h6>Experience</h6>
+												<h3>Experience</h3>
 											</div>
 										</div>
 										<div className="abtIcon-1">
-											<GiAchievement />
+											<ImFileText />
 											<div className="abtIcon-des">
 												<small>3 year</small>
-												<h6>Experience</h6>
+												<h3>Experience</h3>
 											</div>
 										</div>
 										<div className="abtIcon-1">
-											<GiAchievement />
+											<IoTimerOutline />
 											<div className="abtIcon-des">
 												<small>3 year</small>
-												<h6>Experience</h6>
+												<h3>Experience</h3>
 											</div>
 										</div>
 									</div>
