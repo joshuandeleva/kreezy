@@ -61,6 +61,7 @@ a{
 }
 .abtIcon-1{
     display: flex;
+    padding-right:20px;
 }
 .abtIcon-des{
     display: flex;
