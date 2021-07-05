@@ -1,0 +1,71 @@
+.my-form-details h6 {
+	font-weight: 700;
+	font-size: 40px;
+	color: deepskyblue;
+}
+.my-form-details p {
+	padding: 20px 0;
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 35px;
+	color: grey;
+}
+.form__ {
+	display: flex;
+	flex-direction: column;
+}
+.contact-form-group {
+	display: flex;
+	flex-direction: column;
+}
+.contact-form-group label {
+	color: gray;
+	font-weight: 400;
+	line-height: 35px;
+	font-size: 20px;
+	padding: 10px 0;
+}
+.contact-form-group input {
+	height: 50px;
+	padding: 10px;
+	border-radius: 20px;
+	border: none;
+}
+.contact-form-group input:focus {
+	outline-width: 0;
+}
+.contact-form-group textarea {
+	border-radius: 20px;
+	height: 200px;
+}
+.contact-form-group textarea:focus {
+	outline-width: 0;
+}
+.contact-submit {
+	margin-top: 20px;
+}
+.contact-submit button {
+	background-color: deepskyblue !important;
+	width: 250px !important;
+	color: white !important;
+	text-transform: inherit !important;
+}
+.contL__ {
+	display: flex;
+	align-items: center;
+}
+.more-details {
+	margin-left: 30px;
+	display: flex;
+	flex-direction: column;
+}
+.more-details-1 {
+	display: flex;
+	padding: 10px 0;
+	align-items: center;
+}
+.icon-- {
+	color: deepskyblue;
+	font-size: 30px;
+	margin-right: 10px;
+}
