@@ -137,6 +137,18 @@ function About() {
 						</Grid>
 					</Container>
 				</div>
+				<div className="aboutPage__skills">
+					<Container>
+						<Grid container>
+							<Grid item xl={6} sm={12} md={6} lg={6}>
+								<div className="tools"></div>
+								<div className="tools"></div>
+								<div className="tools"></div>
+							</Grid>
+							<Grid item xl={6} sm={12} md={6} lg={6}></Grid>
+						</Grid>
+					</Container>
+				</div>
 			</div>
 			<Footer />
 		</div>
