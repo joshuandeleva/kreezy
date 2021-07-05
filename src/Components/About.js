@@ -111,24 +111,24 @@ function About() {
 									</p>
 									<div className="abtIcons">
 										<div className="abtIcon-1">
-											<GiAchievement />
+											<GiAchievement className="icon-" />
 											<div className="abtIcon-des">
 												<small>3 year</small>
 												<h3>Experience</h3>
 											</div>
 										</div>
 										<div className="abtIcon-1">
-											<ImFileText />
+											<ImFileText className="icon-" />
 											<div className="abtIcon-des">
-												<small>3 year</small>
-												<h3>Experience</h3>
+												<small>20 +</small>
+												<h3>Projects</h3>
 											</div>
 										</div>
 										<div className="abtIcon-1">
-											<IoTimerOutline />
+											<IoTimerOutline className="icon-" />
 											<div className="abtIcon-des">
-												<small>3 year</small>
-												<h3>Experience</h3>
+												<small>24/7</small>
+												<h3>Support</h3>
 											</div>
 										</div>
 									</div>

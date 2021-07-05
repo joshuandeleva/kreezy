@@ -58,6 +58,7 @@ a{
 }
 .abtIcons{
     display: flex;
+    padding-top: 20px;
 }
 .abtIcon-1{
     display: flex;
@@ -65,5 +66,37 @@ a{
 }
 .abtIcon-des{
     display: flex;
+    padding: 0 10px;
     flex-direction: column;
+}
+.aboutMePage__moreDetailsLeft img,
+.aboutPage__right img{
+    object-fit: contain;
+   border-radius: 50%;
+}
+.abtIcon-des h3{
+    font-size: 13px;
+    padding-top: 8px;
+}
+.icon-{
+    color: deepskyblue;
+    font-size: 30px;
+}
+@media (min-width:200px) and (max-width:980px){
+    .aboutPage__right img {
+        display: none;
+    }
+    .abtHire{
+        width: 150px !important;
+    }
+    .abtIcon-1 {
+        display: flex;
+        align-items: center;
+        
+    }
+    .abtIcon-des {
+        display: flex;
+        padding: 5px 3px;
+        flex-direction: column;
+    }
 }
