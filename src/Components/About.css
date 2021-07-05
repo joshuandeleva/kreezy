@@ -1,102 +1,134 @@
-a{
-    text-decoration: none;
+a {
+	text-decoration: none;
 }
-.main-div{
-    display: flex;
-    align-items: center;
+.main-div {
+	display: flex;
+	align-items: center;
 }
-.aboutMePage__left{
-    display: flex;
-    flex-direction: column;
+.aboutMePage__left {
+	display: flex;
+	flex-direction: column;
 }
-.aboutMePage__left h1{
-    font-size: 16px;
-    color: deepskyblue;
+.aboutMePage__left h1 {
+	font-size: 16px;
+	color: deepskyblue;
 }
-.aboutMePage__left h3{
-      color: deepskyblue;
-    padding-top: 20px;
+.aboutMePage__left h3 {
+	color: deepskyblue;
+	padding-top: 20px;
 }
-.aboutMePage__left p{
-    font-size: 40px;
-    font-weight: 700;
-    padding-top: 20px;
+.aboutMePage__left p {
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: 20px;
 }
-.aboutMePage__left h6{
-    padding-top: 20px;
-    font-size: 22px;
-    line-height: 35px;
-    font-weight: 400;
+.aboutMePage__left h6 {
+	padding-top: 20px;
+	font-size: 22px;
+	line-height: 35px;
+	font-weight: 400;
 }
-.aboutMePage__leftBtns{
-    padding-top: 20px;
-    display: flex;
+.aboutMePage__leftBtns {
+	padding-top: 20px;
+	display: flex;
 }
-.abtHire{
-    background-color: deepskyblue !important;
-    width: 250px !important;
-    color: white !important;
-    text-transform: inherit !important;
-    margin-right: 10px !important;
+.abtHire {
+	background-color: deepskyblue !important;
+	width: 250px !important;
+	color: white !important;
+	text-transform: inherit !important;
+	margin-right: 10px !important;
 }
-.abtHire a{
-    color: white !important;
-    text-transform: inherit !important;
+.abtHire a {
+	color: white !important;
+	text-transform: inherit !important;
 }
-.abtCv{
-    text-transform: inherit !important;
+.abtCv {
+	text-transform: inherit !important;
 }
-.aboutMePage__moreDetailsRight h6{
-     font-weight: 700;
-     font-size: 40px;
-     padding-bottom: 20px;
+.aboutMePage__moreDetailsRight h6 {
+	font-weight: 700;
+	font-size: 40px;
+	padding-bottom: 20px;
 }
-.aboutMePage__moreDetailsRight p{
-    font-size: 20px;
-    line-height: 35px;
-    font-weight: 400;
+.aboutMePage__moreDetailsRight p {
+	font-size: 20px;
+	line-height: 35px;
+	font-weight: 400;
 }
-.abtIcons{
-    display: flex;
-    padding-top: 20px;
+.abtIcons {
+	display: flex;
+	padding-top: 20px;
 }
-.abtIcon-1{
-    display: flex;
-    padding-right:20px;
+.abtIcon-1 {
+	display: flex;
+	padding-right: 20px;
 }
-.abtIcon-des{
-    display: flex;
-    padding: 0 10px;
-    flex-direction: column;
+.abtIcon-des {
+	display: flex;
+	padding: 0 10px;
+	flex-direction: column;
 }
 .aboutMePage__moreDetailsLeft img,
-.aboutPage__right img{
-    object-fit: contain;
-   border-radius: 50%;
+.aboutPage__right img {
+	object-fit: contain;
+	border-radius: 50%;
 }
-.abtIcon-des h3{
-    font-size: 13px;
-    padding-top: 8px;
+.abtIcon-des h3 {
+	font-size: 13px;
+	padding-top: 8px;
 }
-.icon-{
-    color: deepskyblue;
-    font-size: 30px;
+.icon- {
+	color: deepskyblue;
+	font-size: 30px;
 }
-@media (min-width:200px) and (max-width:980px){
-    .aboutPage__right img {
-        display: none;
-    }
-    .abtHire{
-        width: 150px !important;
-    }
-    .abtIcon-1 {
-        display: flex;
-        align-items: center;
-        
-    }
-    .abtIcon-des {
-        display: flex;
-        padding: 5px 3px;
-        flex-direction: column;
-    }
+.abt1__ {
+	display: flex;
+	padding: 10px 0;
+	align-items: center;
+}
+.abt1__ p {
+	padding-left: 20px;
+}
+.abt1__Icon {
+	color: deepskyblue;
+	font-size: 30px;
+}
+.abtPgSkill__ h6 {
+	font-weight: 700;
+	font-size: 30px;
+}
+.aboutPage__skills {
+	padding-top: 20px;
+}
+.tech-stack {
+	display: flex;
+	justify-content: space-between;
+}
+.teck-stack-tools h6,
+.teck-stack-database h6,
+.tech-stack-main h6 {
+	font-weight: 700;
+	font-size: 20px;
+}
+@media (min-width: 200px) and (max-width: 980px) {
+	.aboutPage__right img {
+		display: none;
+	}
+	.abtHire {
+		width: 150px !important;
+	}
+	.abtIcon-1 {
+		display: flex;
+		align-items: center;
+	}
+	.abtIcon-des {
+		display: flex;
+		padding: 5px 3px;
+		flex-direction: column;
+	}
+	.tech-stack {
+		display: flex;
+		flex-direction: column;
+	}
 }
