@@ -37,7 +37,7 @@ const Navbar = () => {
 			<Container>
 				<div className="Navbar__items">
 					<div className="navbar__logo">
-						<Link to="/">CK</Link>
+						<Link to="/">Chris</Link>
 					</div>
 					<div className="menu__icon" onClick={handleClick}>
 						{click ? (

@@ -36,7 +36,9 @@ function Footer() {
 					</div>
 				</div>
 				<hr></hr>
-				<p className="footer-copy-right">2021 &copy;ck</p>
+				<p className="footer-copy-right">
+					2021 &copy;Christopher wanjohi
+				</p>
 			</Container>
 		</div>
 	);

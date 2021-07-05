@@ -56,6 +56,9 @@ a {
 	line-height: 35px;
 	font-weight: 400;
 }
+.aboutMePage__moreDetails {
+	padding-bottom: 40px;
+}
 .abtIcons {
 	display: flex;
 	padding-top: 20px;
@@ -99,9 +102,14 @@ a {
 	font-size: 30px;
 }
 .aboutPage__skills {
-	padding-top: 20px;
+	padding: 40px 0;
+	background-image: url(../assets/images/footer.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .tech-stack {
+	margin-top: 20px;
 	display: flex;
 	justify-content: space-between;
 }

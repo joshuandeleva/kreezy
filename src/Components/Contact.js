@@ -1,46 +1,55 @@
 import React from "react";
 import "./Contact.css";
 import Fade from "react-reveal/Fade";
-import contactimg from "../assets/images/contac-1.svg";
 import { Container, Grid, Button } from "@material-ui/core";
 function Contact() {
 	return (
 		<div className="contact-page">
 			<div className="contact-page-details">
 				<Container>
-					<div className="contact-intro">
-						<h1>Let's collaborate and share projects ideas 🛠</h1>
-					</div>
 					<Grid container>
-						<Grid item xl={6} md={12} lg={6} sm={12}>
-							<Fade bottom>
-								<div className="my-form">
-									<form>
-										<input
-											type="text"
-											placeholder="First Name"
-										/>
-										<input
-											type="text"
-											placeholder="Last Name"
-										/>
-										<input
-											type="text"
-											placeholder="Enter Your Email"
-										/>
-										<textarea placeholder="mesaage"></textarea>
-									</form>
-									<Button class="send-btn">Send</Button>
-								</div>
-							</Fade>
-						</Grid>
-						<Grid item xl={6} md={12} lg={6} sm={12}>
+						<Grid item xl={6} sm={12} md={6} lg={6}>
 							<div className="my-form-details">
-								<Fade bottom>
-									<img src={contactimg} alt="" />
-								</Fade>
+								<h6>Let's talk</h6>
+								<p>
+									Having a project or Feeling to collaborate
+									on a project , I'm open for them
+								</p>
+								<div className="form">
+									<form action="">
+										<div className="contact-form-group">
+											<label htmlFor="">First Name</label>
+											<input
+												type="text"
+												placeholder="Enter your FirstName"
+											/>
+										</div>
+										<div className="contact-form-group">
+											<label htmlFor="">Last Name</label>
+											<input
+												type="text"
+												placeholder="Enter your LastName"
+											/>
+										</div>
+										<div className="contact-form-group">
+											<label htmlFor="">Email</label>
+											<input
+												type="text"
+												placeholder="Enter your Email"
+											/>
+										</div>
+										<div className="contact-form-group">
+											<label htmlFor="">Message</label>
+											<textarea></textarea>
+										</div>
+										<div className="contact-submit">
+											<Button>Send Message</Button>
+										</div>
+									</form>
+								</div>
 							</div>
 						</Grid>
+						<Grid item xl={6} sm={12} md={6} lg={6}></Grid>
 					</Grid>
 				</Container>
 			</div>
